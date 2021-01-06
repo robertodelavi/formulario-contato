@@ -131,6 +131,6 @@
     var assunto  = document.getElementById('assunto').value;
     var mensagem = document.getElementById('mensagem').value;
     // Monta mensagem
-    var win = window.open(`https://wa.me/5549999491845?text=Olá Roberto%0a%0aMeu nome é ${nome}, sou do(a) ${empresa}.%0a%0a*${assunto}*%0a${mensagem}`);    
+    var win = window.open(`https://wa.me/5549999491845?text=*${assunto}*%0a%0a${mensagem}%0a%0a${nome} - ${empresa}.`);    
   }
 </script>
